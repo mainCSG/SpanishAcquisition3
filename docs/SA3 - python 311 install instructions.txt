@@ -1,0 +1,62 @@
+These are install notes for spanish acquisition 3 made on 25/04/2024.
+
+1) if not installed already, install anaconda full version (not mini conda)
+
+	- mini conda should be fine, but may require more packages to be 
+	installed aside from the requirements package list
+	
+	- specify version of python 3.11
+
+2) add python to path if not already done so
+	- C:\Users\<username>\anaconda3
+	- C:\Users\<username>\anaconda3\Scripts
+	- C:\Users\<username>\anaconda3\envs
+
+3) check which version of viual studio build tools is needed with: 
+
+"python -c "import sys;print(sys.version)""
+& 
+https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B
+
+	-then install the necessary version of microsoft visual c++ 14.0 build tools
+
+	-previous installed version 16.11.34 2019
+
+3) create conda environment called spac3
+	
+	- make sure to manually install numpy first
+	- pip install wheel
+	- pip install -U attrdict3
+	- unistall and re-install wheel, setuptools: 
+
+		+ pip uninstall wheel setuptools
+		+ pip install -U wheel setuptools
+
+	- upgrade enable package to most recent version 6.0.0
+	- after wx is installed add extensions ".cp311-win_amd64.pyd" to all files in C:\Users\<username>\anaconda3\Lib\site-packages\wx
+
+_adv
+_aui
+_core
+_dataview
+_glcanvas
+_grid
+_html
+_html2
+_media
+_msw
+_propgrid
+_ribbon
+_richtext
+_stc
+_xml
+_xrc
+siplib
+
+4)  Download and extract swig 3.0.12 (do not use 4.x, it does not work) and add to path
+   *No install necessary, just add to path after extracting the zipped folder
+
+5) Install microsoft visual c++ 14.0 build tools
+   *It is about 7 GB, but it is necessary...
+
+6) Download packages necessary from requirements.txt

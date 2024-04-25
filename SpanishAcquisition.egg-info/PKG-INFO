@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: SpanishAcquisition
 Version: 3.0
 Summary: Package for interfacing with devices and building user interfaces.
-Home-page: https://github.com/mainCSG/SpanishAcquisitionIQC
+Home-page: https://github.com/mainCSG/SpanishAcquisition3
 Author: Dmitri Iouchtchenko
 Author-email: diouchtc@uwaterloo.ca
 Maintainer: Stephen Harrigan

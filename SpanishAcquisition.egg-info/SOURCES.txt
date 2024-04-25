@@ -17,6 +17,10 @@ spacq/devices/__init__.py
 spacq/devices/abstract_device.py
 spacq/devices/config.py
 spacq/devices/tools.py
+spacq/devices/Scientific_Instruments/__init__.py
+spacq/devices/Scientific_Instruments/model9700.py
+spacq/devices/Scientific_Instruments/mock/__init__.py
+spacq/devices/Scientific_Instruments/mock/model9700.py
 spacq/devices/agilent/__init__.py
 spacq/devices/agilent/dm34401a.py
 spacq/devices/agilent/dm34410a.py
@@ -84,9 +88,11 @@ spacq/devices/keithley/tests/server/test_voltagesource230.py
 spacq/devices/lakeshore/__init__.py
 spacq/devices/lakeshore/model218.py
 spacq/devices/lakeshore/tc335.py
+spacq/devices/lakeshore/tc335_old.py
 spacq/devices/lakeshore/mock/__init__.py
 spacq/devices/lakeshore/mock/mock_model218.py
 spacq/devices/lakeshore/mock/mock_tc335.py
+spacq/devices/lakeshore/mock/mock_tc335_old.py
 spacq/devices/lakeshore/mock/tests/__init__.py
 spacq/devices/lakeshore/mock/tests/test_mock_tc335.py
 spacq/devices/lakeshore/tests/__init__.py

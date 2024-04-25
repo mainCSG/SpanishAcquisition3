@@ -17,7 +17,7 @@ setup(
 	description='Package for interfacing with devices and building user '
 			'interfaces.',
 	license='BSD',
-	url='https://github.com/mainCSG/SpanishAcquisitionIQC',
+	url='https://github.com/mainCSG/SpanishAcquisition3',
 	packages=[p for p in find_packages() if included_package(p)],
 	classifiers=[
 		'Development Status :: 3 - Alpha',

@@ -1,0 +1,25 @@
+These are install notes for spanish acquisition 3 made on 25/04/2024.
+
+1) configure conda and python
+
+	1.1) download miniconda for python 3.10 (or general mini conda which is configured/setup later when making a conda environment)
+
+		- https://docs.anaconda.com/free/miniconda/miniconda-other-installer-links/
+		- installer is in miniconda compressed folder saved on Teams folder.
+		- use installer to add conda to PATH by checking the appropriate box.
+
+	1.2) configure conda enviornment: "conda create --name spac3 -c anaconda python=3.10.14"
+
+2) install require SA3 required python packages into spac3 environment
+
+	2.1) "conda activate spac3" (in anaconda prompt)
+
+	2.2) "pip install -r requirements.txt"
+
+	2.3) "pip install -e ." (in base directory i.e. SpanishAcquisition3, -e makes package editable)
+		2.3.1) test if install worked "python examples\acquisition.py"
+
+
+3) make executible icon
+
+	3.1) copy to files from "\batch_scripts" files to the desktop and change the paths to miniconda and the python files
