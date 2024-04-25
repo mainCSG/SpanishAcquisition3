@@ -1,0 +1,14 @@
+*.pyc
+*.py~
+*.swp
+fileslist.list
+
+# Code coverage results from nose.
+.coverage
+
+# Virtual Environment
+/venv
+
+# Local build and distribution
+/build
+/dist

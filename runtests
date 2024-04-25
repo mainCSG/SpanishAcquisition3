@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if (( $# == 0 )); then
+	EXCLUDE="--exclude=server"
+else
+	EXCLUDE=""
+fi
+
+TEST_CONFIG_PATH=~/.spacq-test-config.py
+if [[ -r "${TEST_CONFIG_PATH}" ]]; then
+	TEST_CONFIG="--tc-file ${TEST_CONFIG_PATH} --tc-format python"
+else
+	TEST_CONFIG=""
+fi
+
+nosetests $TEST_CONFIG --exclude=test-config.py $EXCLUDE $@ --exe

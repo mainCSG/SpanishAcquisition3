@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SpanishAcquisition
+Version: 3.0
+Summary: Package for interfacing with devices and building user interfaces.
+Home-page: https://github.com/mainCSG/SpanishAcquisitionIQC
+Author: Dmitri Iouchtchenko
+Author-email: diouchtc@uwaterloo.ca
+Maintainer: Stephen Harrigan
+Maintainer-email: srharrig@uwaterloo.ca
+License: BSD
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE

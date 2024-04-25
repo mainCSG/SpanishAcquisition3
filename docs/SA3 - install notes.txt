@@ -1,0 +1,25 @@
+Installing SA:
+
+1. Install python 3.10 (not tested in later versions)
+1.1 Set up python virtual enviornment to install all python packages
+1.2 move SA 
+
+2. Download SpanishAcquisiton 3 from repo on CSG github page
+
+3. Download and extract swig 3.0.12 (do not use 4.x, it does not work) and add to path
+   *No install necessary, just add to path after extracting the zipped folder
+
+4. Install microsoft visual c++ 14.0 build tools
+   *It is about 7 GB, but it is necessary...
+
+5. Download packages necessary from requirements.txt
+
+6. Install SA as a local package. Run command below from top folder, where setup.py should be
+   *pip install -e . (-e makes it editable)
+
+7. At this point, you should be able to run acquisition.py in the examples folder, though you won't be able to communicate to devices.
+   *It is good to make sure that it can run and that you are able to have live plotting running. Use a mock multimeter and set up reading like you would otherwise.
+
+8. Download NI Max and download any of the follwoing drivers based on need:
+   *
+   *
