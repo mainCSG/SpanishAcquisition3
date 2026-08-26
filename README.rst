@@ -2,7 +2,7 @@
 Spanish Acquisition
 *******************
 
-Spanish Acquisition is a Python package for interfacing with test & measurement devices (primarily SCPI over Ethernet and GPIB) and building user interfaces for running experiments.
+Spanish Acquisition is a Python package for interfacing with test & measurement devices (primarily SCPI over Ethernet and GPIB) and building user interfaces for running experiments. This version is the most recent version installed on the Janis and Dil Fridge Computers.
 
 The compiled documentation is `available online <http://ghwatson.github.com/SpanishAcquisitionIQC/docs/>`_.
 
